@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!--doc type declaration-->
+
+<html> <!--wrappper-roort element-->
+
+	<head> <!--define common data-to put something globally-->
+		<title>Registration form</title>
+	</head>
+
+
+	<body>
+		<form method="GET"> <!--use GET for testing purposes-->
+			First Name : <input type="text" name="fName"/><!--self closing-->  	
+			Email : <input type="text" name="email"/>
+			Password : <input type="password" name="pwd"/>
+
+			<select name="batchNo">  <!--select a single value from a drop down-->
+				<option value="batch10">Batch 10</option>
+				<option value="batch11">Batch 11</option>
+				<option value="batch12">Batch 12</option>
+				<option value="batch13">Batch 13</option>
+				<option value="batch14">Batch 14</option>
+			</select>
+
+
+			Language Preferences : <!--multiple selections : check boxes-->
+
+
+				<!--OPTION 02 Convenient way-->
+				HTML<input type="checkbox" name="lang_pref[]" value="html"/> <!--taken as one field in the array name:lang_pref : URL:: "lang_html[]:0:on","1:on" for selected values-->
+				JS<input type="checkbox" name="lang_pref[]" value="js"/>
+				JSX<input type="checkbox" name="lang_pref[]" value="jsx"/>
+				CSS<input type="checkbox" name="lang_pref[]" value="css"/>
+				TS<input type="checkbox" name="lang_pref[]" value="ts"/>
+
+			Gender : 
+				Male<input type="radio" name="gender" value="male" /> <!--name : to take both to the same field-->
+				Female<input type="radio" name="gender" value="female" />
+
+
+			<input type="submit">
+			<input type="reset">
+		</form>
+
+	</body>
+
+
+</html>

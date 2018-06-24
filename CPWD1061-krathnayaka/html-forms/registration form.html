@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>registration form</title>
+	</head>
+	<body>
+		<form method="POST" >
+		
+			<input name="regid" type="hidden" value="001">
+			<fieldset>
+				<legend>Personal Data</legend>
+		
+					<label for="first-name">first name:</label>
+					<input id="first-name" type="text" name="fname">
+					
+					<label for="last-name">last name :</label>
+					<input id="last-name" type="text" name="lname">
+					
+					<label for="email-id">email :</label>
+					<input id="email-id" type="text" name="eml">
+					
+					password :<input type="password" name="password">
+			
+			</fieldset>
+			<fieldset>
+				<legend>OS Preference</legend>
+			batch no:<select name="ospreference">
+						<optgroup label="UNIX Distribution">
+							<option value="batch10">batch 10</option>
+							<option value="batch11">batch 11</option>
+							<option value="batch12">batch 12</option>
+							<option value="batch13">batch 13</option>
+							<option value="batch14">batch 14</option>
+						</optgroup>
+						<optgroup label="UNIX Distribution">
+							<option value="batch10">batch 10</option>
+							<option value="batch11">batch 11</option>
+							<option value="batch12">batch 12</option>
+							<option value="batch13">batch 13</option>
+							<option value="batch14">batch 14</option>
+						</optgroup>
+					</select>
+			</fieldset>
+			<textarea name="comment" cols="20" rows="5"></textarea>
+				
+			<!-- html 
+			
+			language preferences:
+			
+			HTML<input type="checkbox" name="lan_html" value="html">
+			JS<input type="checkbox" name="lan_js" value="js">
+			JSX<input type="checkbox" name="lan_jsx" value="jsx">
+			CSS<input type="checkbox" name="lan_css" value="css">
+			TS<input type="checkbox" name="lan_ts" value="ts">			
+			
+			-->
+			language preferences:
+			
+			HTML<input type="checkbox" name="lan_html" value="html">
+			JS<input type="checkbox" name="lan_js" value="js">
+			JSX<input type="checkbox" name="lan_jsx" value="jsx">
+			CSS<input type="checkbox" name="lan_css" value="css">
+			TS<input type="checkbox" name="lan_ts" value="ts"><br>
+			
+			male: <input type="radio" value="male" name="gender">
+			female: <input type="radio" value="female" name="gender">
+			other: <input type="radio" value="other" name="gender"><br>
+			
+			upload your image: <input type="file"><br>
+			<input type="image" src="images/logo.png"><br>
+			<input type="button" value="like">
+			
+			
+			<input type="submit">
+			<input type="reset">
+		</form>
+	
+	</body>
+</html>

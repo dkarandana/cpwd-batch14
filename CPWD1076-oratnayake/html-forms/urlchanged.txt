@@ -1,0 +1,17 @@
+http://192.168.100.7/batch14/ovini_ratnayake/html-forms/form.html?fName=Ovini&lName=Ratnayake&email=ovii.ano.buu%40gmail.com
+
+
+http: protocol
+192.168.100.7  : server IP(domain name replacement)
+batch14/ovini_ratnayake/html-forms/ : file path
+form.html : original file
+
+fName=Ovini : first query parameter
+
+%40gmail : %40 safe character to represent @ sign since @ cannot be used in URLs : @ is used for authentications
+%20 : encoded character for spaces
+
+the number of parameters that can be passed using get method depends on th URL length provided by the server.
+
+
+https://www.w3.org/TR/html401/interact/forms.html

@@ -1,0 +1,49 @@
+<! DOCTYPE html>
+<html>
+   <head>
+   
+   <title>Registration Form</title>
+    
+   </head>
+   <body>
+        <form method="POST" action="">  
+        
+            First Name : <input type="text" name="fname">
+            Last Name : <input type="text" name="lname">
+            Email : <input type="text" name="email">
+            Password : <input type="password" name="password">
+            
+            <select name="Batch number">
+               <option>Batch 10</option>
+               <option>Batch 11</option>
+               <option>Batch 12</option>
+               <option>Batch 13</option>
+               <option>Batch 14</option>
+            </select>
+            <hr>
+            <!-- html
+                    miltiline comment
+             -->       
+                Language Preferences :
+                
+                HTML<input name="lan_pref[]" value="html" type="checkbox">
+                JS<input name="lan_pref[]" value="js" type="checkbox">
+                JSX<input name="lan_pref[]" value="jsx" type="checkbox">
+                CSS<input name="lan_pref[]" value="css" type="checkbox">
+                TS<input name="lan_pref[]" value="ts" type="checkbox">
+             <hr>
+             
+             Gender :
+             male<input name="gender" type="radio" value="male">
+             female<input name="gender" type="radio" value="female">
+             
+            <input type = "submit"/>
+            <input type= "Reset"/>
+        </form>
+   
+   </body>
+</html>
+
+
+
+
