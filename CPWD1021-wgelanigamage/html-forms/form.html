@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Forms</title>
+	</head>
+	<body>
+		<form method="POST" action="">
+			<fieldset>
+				<legend>Personal Date</legend>
+				<label for="first-name">First Name :</label>
+				<input id="first-name" type="text" name="fName"/>
+				<label for="last-name">Last Name :</label> 
+				<input id="last-name" type="text" name="fName"/>
+				Email : <input type="text" name="email"/>
+				Password : <input type="password" name="password"/>
+			</fieldset>
+			<hr>
+			<select name="batchNo">
+				<option value="batch12">Batch 12</option>
+				<option value="batch13">Batch 13</option>
+				<option value="batch14">Batch 14</option>
+			</select>
+			<hr>
+			<!-- html 
+				Language Preferences
+				HTML<input type="checkbox" name="lang_html">
+				CSS<input type="checkbox" name="lang_css">
+				JS<input type="checkbox" name="lang_js">
+				TS<input type="checkbox" name="lang_ts">
+			-->
+			<fieldset>	
+				<legend>Language Preferences</legend>
+				HTML<input name="lang_pref[]" value="html" type="checkbox">
+				CSS<input name="lang_pref[]" value="css" type="checkbox">
+				JS<input name="lang_pref[]" value="js" type="checkbox">
+				TS<input name="lang_pref[]" value="ts" type="checkbox">
+			</fieldset>	
+				<hr>
+				<fieldset>
+					<legend>OS Preference</legend>
+					<select name="osPreference">
+						<optgroup label="UNIX Distributions">
+							<option>Centos</option>
+							<option>RHEL</option>
+							<option>Ubuntu</option>
+						</optgroup>
+						<optgroup label="Windows">
+							<option>Windows 07</option>
+							<option>Windows 08</option>
+							<option>Windows 08</option>
+						</optgroup>
+					</select>
+				</fieldset>
+				<textarea name="comment" cols="40" rows="15"></textarea>
+				<hr>
+				Gender:
+				<input type="radio" value="male" name="gender">
+				<input type="radio" value="femail" name="gender">
+				<hr>
+				Upload your image
+				<input type="file" name="img">
+				<hr>
+				<input name="regId" type="hidden" value="001">
+				<hr>
+				
+				<hr>
+				<input type="button" value="like">
+				<hr>
+				<button name="vote">VOTE</button>
+				<hr>
+			<input type="submit"/>
+			<input type="reset"/>
+			
+		</form>
+<input type="image" src="./cc.jpg">
+	</body>
+</html>

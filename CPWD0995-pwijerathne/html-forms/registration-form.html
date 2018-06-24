@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<form method="POST">
+	
+		<fieldset>
+			<legend>Personal Data</legend>
+				<label>First Name:</label>
+				<input type="text" name="fname"/>
+				<label>Last Name:</label>
+				<input type="text" name="lname"/>
+				<label>Email:</label>
+				<input type="text" name="email"/>
+				<label>Password:</label>
+				<input type="password" name="passwd">
+		</fieldset>
+	
+		<fieldset>
+			<select name="batchno">
+				<option value="batch1">Batch 1</option>
+				<option value="batch2">Batch 2</option>
+				<option value="batch3">Batch 3</option>
+			</select>
+		</fieldset>
+		
+		<fieldset>
+		Language Preferences:
+		HTML <input type="checkbox" name="lang_pref[]" value="html">
+		CSS <input type="checkbox" name="lang_pref[]" value="css">
+		Java <input type="checkbox" name="lang_pref[]" value="java">
+		C++ <input type="checkbox" name="lang_pref[]" value="c++">
+
+		Gender:-
+		Male:<input type="radio" value="male" name="gender">
+		Female:<input type="radio" value="female" name="gender">
+		</fieldset>
+		
+		<input type="hidden" name="id" value="100">
+		
+		<fieldset>
+			<select name="os Preferences">
+				<optgroup label="unix" >
+					<option>centos</option>
+					<option>red hat</option>
+					<option>ubuntu</option>
+				</optgroup>
+				<optgroup label="windows">
+					<option>win 7</option>
+					<option>win 10</option>
+				</optgroup>
+		</fieldset>
+		
+	
+		<input type="submit"/>
+		<input type="reset"/>
+	</form>
+	<input type="image" src="./1.jpg">
+</body>
+</html>

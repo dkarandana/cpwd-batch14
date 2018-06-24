@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<title> Registration Form </title>
+
+</head>
+<body>
+	<form method = "GET">
+
+<input type="hidden" name="Reg Id" value="001">
+
+		<fieldset>
+		<legend> Personal Data </legend>
+
+
+	
+		First Name :	<input type="text" name="fname"> 	
+		Last Name  : 	<input type="text" name= "lname">
+		Email 	   : 	<input type="text" name="email">
+		Password	: <input type ="password" name ="password">
+
+		</fieldset>
+		
+		<button> 
+			
+		   Vote 
+		
+		</button>
+ >
+
+		
+	
+
+
+
+		
+		<select : "Batch No">
+			<option value="Batch10"> Batch 10	</option>
+			<option value="Batch11"> Batch 11	</option>
+			<option value="Batch12"> Batch 12	</option>
+		</select>
+		<hr>
+		
+
+
+			<!--html>
+			multiline comment
+
+			Language Preferences	:
+			HTML <input name="lang_pref []" value="html" type
+			JS<input name="lang_pref[]	value="js"lan_JS">
+			JSX<input name="lang_pref[]	value="jsx"lan_JSX">
+			CSS<input name =lang_pref[] value="css"lan_CSS">
+			TS<input  name="lang_pref"[] value="ts"lan_TS" >
+			
+			-->	
+
+
+
+	
+		<fieldset>
+		<legend> Language Details </legend>
+
+
+			Language Preferences	:
+			HTML <input type="checkbox" name="lan_HTML">
+			JS <input type="checkbox"	name="lan_JS">
+			JSX <input type="checkbox"	name="lan_JSX">
+			CSS <input type = "checkbox" name="lan_CSS">
+			TS<input type = "checkbox" name="lan_TS" >
+		
+		</fieldset>
+
+		</hr>
+
+		<fieldset>
+		<legend> Gender Details</legend>
+
+			Gender :
+			male: <input type="radio" value="male">
+			female: <input type="radio" value "female>"
+
+		</fieldset>
+
+		<fielset>
+		<legend> OS Preferences </legend>
+		<select name="osPreference">
+		<optgroup label1= "UNIX DISTRIBUTIONS">
+		<option value="centos">Centos </option>
+		<option>RHEL</option>
+		<option>Kubuntu</option>
+		<option>Ubuntu</option>
+		<optgroup label="Windows">
+		<option>Win 7 </option>
+		<option>Win 10 </option>
+		</optgroup>
+
+
+
+
+
+
+
+
+
+		<fieldset>
+		<legend> Uploading</legend>
+
+		
+		Upload Image:
+		<input type = "file">
+		<input type= "image" height="" width=""t
+		<input type="hidden">
+		</fieldset>
+
+
+
+	   <input type = "Submit">
+	   <input type="reset">
+		
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

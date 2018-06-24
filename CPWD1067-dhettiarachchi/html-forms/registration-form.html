@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Html day 2 Forms
+	</title>
+</head>
+<body>
+	<form method="Post">
+<!--	action="evaluate url">-->
+<fieldset>
+	<legend> Personal Data
+	</legend>
+	<label >hidden</label><input  type="hidden" name="hidden" value="0091"/>
+	
+	<label for="fname">First Name:</label><input  id="fname" type="text" name="f-name"/>
+<label for="lname">Last Name:</label><input id="lname" type="text" name="l-name"/>
+		<label for="mail">e-Mail:</label><input id="mail" type="text" name="email"/>
+<label for="pass">Password:</label><input id="pass" type="password" name="pass"/>
+		<label>upload file</label><input type="file" name="file"/>
+		
+		
+	
+</fieldset>
+		
+
+		<select name="batch">
+			<option value="op1">option 1</option>
+			<option value="op2">option 2</option>
+			<option value="op3">option 3</option>
+			<option value="op4">option 4</option>
+		</select>
+		 
+		 
+		 <fieldset>	
+			<legend> Os Preformance</legend>
+			<select name="os Preformance">
+				<optgroup label="unix">
+					<option value="centor">Centor</option>
+					<option>RHEL</option>
+					<option>Kubuntu</option>
+					<option>Ubuntu</option>
+				</optgroup>
+				<optgroup label="windows">
+					<option>win7</option>
+					<option>win8</option>
+					<option>win10</option>
+				</optgroup>
+			</select>
+		 </fieldset>
+	<!--	language preferances:
+		html<input type="checkbox" name="html"/>
+		css<input type="checkbox" name="css"/>
+		jacascript<input type="checkbox" name="jacascript"/>
+		jQuery<input type="checkbox" name="jQuery"/>
+		xml<input type="checkbox" name="xml"/>
+		 -->
+		language preferances1:
+		html<input type="checkbox" value="html" name="lan[]"/>
+		css<input type="checkbox" value="css" name="lan[]"/>
+		jacascript<input type="checkbox" value="jacascript" name="lan[]"/>
+		jQuery<input type="checkbox" value="jQuery" name="lan[]"/>
+		xml<input type="checkbox" value="xml" name="lan[]"/>
+		
+		male<input type="radio" value="male" name="gender">
+		female<input type="radio" value="female" name="gender"/>
+		<input type="submit" />
+		<input type="reset" />
+		<input type="button" value="vote"/>
+		<textarea name="comment" col="500" row="30"></textarea>
+	</form>
+
+</body>
+</html>

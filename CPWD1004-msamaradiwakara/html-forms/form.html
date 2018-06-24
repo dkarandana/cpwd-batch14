@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registration Form </title>
+</head>
+<body>
+	<input name="Reg ID" type="hidden" value="001">
+
+	<form method="GET" action=""> 
+		first Name : <input type="text" name="fname">
+		Last Name: <input type="text" name="lname">
+		E-mail: <input type="text" name="email"> 
+		Password <input type="password" name="password">
+		
+		<select name="bath No"> 
+				<option value="Batch 10">Batch 10 </option>
+				<option value="Batch 11">Batch 11 </option>
+				<option value="Batch 12">Batch 12 </option>
+		</select>
+		
+		<!-- html 
+		
+		HTML <input type="checkbox" velue="lang_HTML">
+		JS <input type="checkbox" name="lang_JS">
+		JSX <input type="checkbox" name="lang_JSX">
+		CSS <input type="checkbox" name="lang_CSS">
+		TS <input type="checkbox" name="lang_TS">
+		
+			We can do same thing withusing following array
+		Multiline Comment -->
+		
+		<hr>
+		Language Preferences
+		HTML <input value="html" name="lang_pref[]" type="checkbox" >
+		JS <input value="js" name="lang_pref[]" type="checkbox">
+		JSX <input value="jsx" name="lang_pref[]" type="checkbox">
+		CSS <input value="css" name="lang_pref[]"type="checkbox">
+		TS <input value="ts" name="lang_pref[]" type="checkbox">
+		
+		<!-- html if give same name for the attribute we cant click the buttons in the same time> --->
+		
+		Gender: 
+		Male:<input name="Gender" type="radio" value="male" >
+		Female :<input name="Gender" type="radio" value="female">
+
+		Upload Your Image
+		<input type="file"> 
+		</input>
+		
+		Vote
+		<input type="button" value="like">
+		
+				
+		
+		<input type="submit">
+		<input type="reset">
+
+	</form> 
+</body>
+</html>
