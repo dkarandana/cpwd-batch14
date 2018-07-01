@@ -1,0 +1,29 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<form method="POST">
+	<fieldset>
+	<legend> Personal Data</legend>
+	<label for="f_name">First Name</label><input type="text" id="f_name" name="f_name" placeholder="name"/>
+	<select name="country">
+			<option value="in">India</option>
+			<option value="uk">UK</option>
+			<option value="sl" selected>Sri Lanka</option>
+	</select>
+	<label>Male</label><input type="radio" name="gender" value="male"/>
+	<label>Female</label><input type="radio" name="gender" value="female"/>
+		
+	<label>Os freferences</label>
+	<input type="checkbox" name="os[]" checked value="Windows"/>
+	<input type="checkbox" name="os[]" checked value="Apple"/>
+	<input type="checkbox" name="os[]" value="Linax"/>
+
+	</fieldset>
+	<input type="submit" />
+
+	</form>
+</body>
+</html>
