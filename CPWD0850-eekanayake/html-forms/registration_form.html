@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Registration form</title>
+	</head>
+
+	<body>
+		<form method="POST">
+		
+		<input name="regID" value="001" type="hidden" >
+		
+		<fieldset>
+		<legend>Personal Data</legend>
+		<label for="first-name"> First name : </label>
+		<input id="first-name" type="text" name="fname">
+		
+		Last name : <input type="text" name="lname">
+		
+		Email : <input type="text" name="email">
+		
+		Password : <input type="password" name="password"> 
+		</fieldset>
+		
+		Batch number :	<select name="bnumber">
+							<option value="batch10">batch10</option>
+							<option value="batch11">batch11</option>
+							<option value="batch12">batch12</option>			
+						</select><br></br>
+		
+		
+		<!-- html
+		Language Preferences :
+		Html<input type="checkbox" name="lang_html">
+		php<input type="checkbox" name="lang_php">
+		jS<input type="checkbox" name="lang_js">
+		css<input type="checkbox" name="lang_css">
+		
+		<input type="image" Src="" height="20" width="20">
+			
+		-->
+		
+		<fieldset>
+		<legend>Language Preferences :</legend>		
+		Html<input name="lang_pref[]" value = "html" type="checkbox">
+		php<input name="lang_pref[]" value = "php" type="checkbox">
+		jS<input name="lang_pref[]" value = "js" type="checkbox">
+		css<input name="lang_pref[]" value = "css" type="checkbox">
+		</fieldset>
+		<br></br>
+		
+		Gender:
+				male: <input type="radio" name="gender" value="male" >
+				female: <input type="radio" name="gender" value="female">
+		<br></br>		
+		Upload your CV : <input type="file" name="myCV">
+		<input type="like" value="like">
+		<br></br>
+		
+		<fieldset>
+				<legend>OS Preferences</legend>		
+						<select name="ospreferences">
+							<optgroup label= "Unix Distributions"</label>
+									<option> RHEL </option>
+									<option>ubuntu</option>
+									<option>RHEL</option>
+							</optgroup>
+		
+							<optgroup label= "windows">
+									<option>RgesL</option>
+									<option>ugestu</option>
+									<option>RHgseL</option>
+							</optgroup>
+		
+						</select>
+		</fieldset>
+		
+		<textarea name="comment" cols="60" rows="15"></textarea>
+		
+		<input type="reset">
+		<input type="submit">
+				
+		</form>
+	</body>
+
+</html>

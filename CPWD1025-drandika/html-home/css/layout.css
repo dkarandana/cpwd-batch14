@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	position: static;
+}
+/*Header*/
+
+
+	
+}
+
+h1{
+	display:inline-block;
+}
+
+
+header{
+	background-color: green;
+	position: relative;
+	height: 0 auto;
+	background-color:transparent;
+	border: 1px solid;
+}	
+.wrapper{
+	background-color:yellow;
+	width:940px;
+	margin: 0px;
+	position: relative;
+	padding: 5px
+}
+
+h2{
+	display:inline-block;
+}
+
+/*Form*/
+form.global-search{
+	display:inline-block;
+	position: static;
+	height: 0 auto;
+	right: 0 auto;
+	
+}
+
+ul.social-media{
+	display: inline-block;
+	margin:0;
+	list-style: none;
+	padding:0;
+}
+
+ul.social-media li{
+	display: inline-block;
+}
+
+ul.menu{
+	display: inline-block;
+	margin:0;
+	list-style: none;
+	padding:0;
+
+}
+
+
+			
+ul.menu li{
+	display: inline-block;
+}
+
+nav ul.menu li a{
+	padding:20px;
+	
+}
+
+.panes{
+	float: left;
+
+}
+.left-pane{
+	width: 30%;
+}
+
+.right-pane{
+	width: 70%;
+}
+
+/*immediate children of content area*/
+
+.content-area > div {
+	float:left;
+}
+
+.left-pane{
+	width:30%; 
+	background-color: #FDEE1D;
+}
+
+.right-pane{
+	width:70%; 
+	background-color: #FDEE1D;
+}
+
+.content-area{
+	background-color:#FDEE1D;
