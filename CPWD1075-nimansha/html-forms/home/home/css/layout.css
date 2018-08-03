@@ -1,0 +1,68 @@
+body{
+	background: darkred;
+	padding-right:150px;
+	padding-left:150px;
+	padding-bottom:150px;
+	padding-top: 80px; 
+	margin:100px;
+}
+h1{
+	background: gold;
+	padding-left: 80px;
+	margin: 0;
+}
+h2
+{
+	display: inline-block;
+}
+
+.container{
+	width: 1240px;
+	margin left: auto;
+	margin right: auto;
+	padding: 20px;
+
+}
+
+/*main manu*
+h1 and h2 Title */
+.header hgroup{
+	display: inline-block;
+}
+/*main manu*/
+.main-avigation-map{
+	padding left: 0px;
+}
+.main-avigation-map li{
+	display: inline-block;
+}
+footer {
+	background-color:yellow;
+
+
+}
+/* content wrapper */
+.content-area > div{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.left-pane{
+	width: 300%;
+	background:white;
+
+}
+.right-pane{
+	width: 68%;
+	background: blue;
+}
+.feature-box{
+	text-align:center;
+}
+
+.feature-box > div{ 
+	display: inline-block;
+	width: 33%;
+	background-color: orange; 
+
+}

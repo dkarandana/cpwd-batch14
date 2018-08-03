@@ -1,0 +1,54 @@
+
+http://192.168.100.7/batch14/CPWD1067-dhettiarachchi/javascript/
+
+
+validation
+logic handalling
+enhansments
+slide shows
+playeremotions +event manipulation
+mouse click +events
+uploads
+data binding
+data handaling
+	local stroage
+	session data
+	cookie data
+	
+javascript is
+hightweight, interpreted, object-oriented language with first-class functions, most known as the scripting language for web pages, but used in many non
+
+
+interpreted language
+
+interpreted language is a programming language fot its most of its codes execute instructionds directly, without previousy compiling a program in to machin language
+
+how to embade
+
+Javascript code can be embedded in a web page using SCRIPT tags.
+
+<script type="text/javascript">
+//code
+</script>
+or
+
+<script type="text/javascript" src"mysctipt.js"/>
+
+
+Array
+
+object
+Js Object is a value in memory which is possibly referenced by an identifire
+
+var name{vname:value};
+
+Variable
+
+A Variable is a stroage location which has a symbolic name and a assign value for the name.
+The value can be a 
+	number
+	text string
+	a boolien
+	a DOM element
+	or a function
+you start by declaring a variable with the VAR keyword followed by any name you want to call in.

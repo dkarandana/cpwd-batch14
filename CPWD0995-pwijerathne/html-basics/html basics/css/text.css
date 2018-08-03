@@ -1,0 +1,27 @@
+.hgroup{
+	 display:inline-block;
+	 font-family: 'Open Sans', sans-serif;
+ }
+#main-menu{
+	padding:0;
+}
+#main-menu li{
+	display:inline-block;
+}
+#social-media{
+	padding:0;
+	
+
+}
+#social-media li{
+	display:inline-block;
+
+}
+
+.globalsearch{
+	display: inline-block;
+}
+P{
+font-family: 'Lato', sans-serif;
+}
+

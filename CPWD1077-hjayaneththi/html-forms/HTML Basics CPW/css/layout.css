@@ -1,0 +1,76 @@
+body {
+	background-color: FFB5C8;
+}
+
+header{
+
+	background: FF0086;
+	border-bottom: 3px solid E8737A;
+}
+
+container{
+
+width:1240px;
+padding:20 px; 
+margin:0 auto;
+/*
+padding-left: 20px; 
+padding right:20px;
+margin-left: auto;
+margin right:auto;*/
+}
+.header hgroup{
+	display: inline-block;
+}
+
+.main navigation-map{
+
+	padding:0;
+}
+
+.main navigation-map li{
+	display: inline-block;
+}
+
+.social media{
+
+display: inline-block;
+
+global-search {
+display: inline-block;
+}
+
+footer{
+	background: blue;
+	
+}
+
+content area > div{
+	display: inline-block;
+	vertical-align: top;
+}
+
+left-pane{
+	width: 30px;
+	background:gold;
+
+}
+
+right pane{
+	width: 60px;
+
+}
+
+feature-boxes{
+	text-align: center;
+	vertica vertical-align: top; }
+
+
+feature-boxes > div{
+	background-color: light blue;
+	display: inline-block;
+	width: 68px;
+	min height:300px;
+
+	}
+

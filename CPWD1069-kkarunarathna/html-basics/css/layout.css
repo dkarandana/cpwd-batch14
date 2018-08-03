@@ -1,0 +1,71 @@
+.content-area > div{
+	display:inline-block;
+	vertical-align:top;
+	
+	
+}
+.left-pane{
+	width:30%;
+	
+	
+}
+.right-pane{
+	width:69%;
+	
+}
+.feature-boxes > div{
+	display:inline-block;
+	vertical-align:top;
+	width:30%;
+    min-height:300px;
+	border:1px solid black;
+	text-align:center;
+	
+	
+}
+.container{
+	width:1240px;
+	margin:0 auto;
+	padding:0 20px;
+	
+	
+}
+/*.logo{
+	position:relative;
+	top:10px;
+	left:10px;
+}*/
+
+form{
+	position:relative;
+	position:absolute;
+	right:opx;
+	top:opx;
+}
+#header{
+	top:0;
+	left:0;
+	right:0;
+	position:fixed;
+	background-color:#FDEDE9;
+}
+
+
+#main-menu{
+	padding:0px;
+}
+#main-menu li{
+	display:inline-block;
+}
+#sub-menu{
+	padding:0px;
+}
+#sub-menu li{
+	display:inline-block;
+}
+.hgroup{
+	padding:0px;
+}
+.hgroup{
+	 display:inline-block;
+ }

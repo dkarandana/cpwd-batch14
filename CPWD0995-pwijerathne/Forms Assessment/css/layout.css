@@ -1,0 +1,33 @@
+body{
+	background-color: lightblue;
+}
+
+#search{
+	background-color: red;
+	font-color:red;
+}
+
+.container{
+	background-color: gold;
+	width: 1280px;
+	font-family: Roboto;
+}
+
+#main-menu{
+	background-color: black;
+
+}
+
+#left-pane{
+	background-color: pink;
+}
+
+/*a:hover{
+	background-color: red;
+	color: yellow;
+}*/
+
+
+button:hover{
+	background-color: red;
+}

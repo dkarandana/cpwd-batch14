@@ -2,51 +2,141 @@
 <html lang="en">
 <head>
 	<title>HTML basics</title>
+<!-- %7c= |
+<link href="https://fonts.googleapis.com/css?family=Lato|Lora|Roboto+Slab" rel="stylesheet">
+--> 
+
+	<link href="https://fonts.googleapis.com/css?family=Lato%7cLora%7cRoboto+Slab" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/layout.css"/>
+	<link rel="stylesheet" href="css/text.css"/>
+	<script type="text/javascript" src="javascript/script.js"></script>
+
 </head>
 <body>
-
-	<headder>
+	<header>
+		<div class="container">
 		<img src="images/cpwd-logo.png" title="CPWD logo" alt="CPWD logo"/>
+		<div class="hedding">
 		<h1>SEO h1 title</h1>
 		<h2>Sub Title</h2>
-		<form>
-			<input type="submit" value="go"/>
-			<input type="text" name="search" id="search"/>
-		</form>
-		<ul>
-			<li><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
-			<li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
-			<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
-		</ul>
-	</headder>
-
-	<ul id="main-menu">
+		</div>
+		<div class="search-block">
+			<form>
+				<input type="submit" value="go"/>
+				<input type="text" name="search" id="search"/>
+			</form>
+			<ul>
+				<li><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+				<li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+				<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+			</ul>
+		</div>
+		<ul id="main-menu">
 		<li><a href="index.html">Home</a></li>
 		<li><a href="course.html">Course Details</a></li>
 		<li><a href="news.html">Upcomming News</a></li>
 		<li><a href="events.html">Events</a></li>
 		<li><a href="review.html">Reviews</a></li>
 		<li><a href="contact.html">Contact Us</a></li>
-	</ul>
+		</ul>
+		</div>
+	</header>
 
-	<div class="main-content">
+	<div class="main-content container">
 		
 		<div class="left-pane">
 			<div id="news">
 				<h3>Latest News</h3>
+				<ul>
+					<li><img src="images/thumbpic.jpg" alt="Thumb image" title="Thumb image"/><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p><a href="#">Read more</a></li>
+					<li><img src="images/thumbpic-1.jpg" alt="Thumb image" title="Thumb image"/><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p><a href="#">Read more</a></li>
+					<li><img src="images/thumbpic-2.jpg" alt="Thumb image" title="Thumb image"/><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p><a href="#">Read more</a></li>
+					<li><img src="images/thumbpic-3.jpg" alt="Thumb image" title="Thumb image"/><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p><a href="#">Read more</a></li>
+					<li><img src="images/thumbpic-4.jpg" alt="Thumb image" title="Thumb image"/><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p><a href="#">Read more</a></li>
+					<li><img src="images/thumbpic.jpg" alt="Thumb image" title="Thumb image"/><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p><a href="#">Read more</a></li>
+					
+				</ul>
 			</div>
 			<div id="events">
 				<h3>Upcomming events</h3>
+				<ul>
+					<li class="sub-event"><p><strong>Event Title</strong></p>
+						<form>
+							<input type="date" name="event-date" id="event-date"/><i class="far fa-calendar-alt"></i>
+						</form>
+						<img src="images/events.jpg" alt="event image" title="event image"/>
+						<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum <a href="#">Read more</a></p>
+					</li>
+						<li class="sub-event"><p><strong>Event Title</strong></p>
+						<form>
+							<input type="date" name="event-date" class="event-date"/><i class="far fa-calendar-alt"></i>
+						</form>
+						<img src="images/events-1.jpg" alt="event image" title="event image"/>
+						<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum <a href="#">Read more</a></p>
+					</li>
+						<li class="sub-event"><p><strong>Event Title</strong></p>
+						<form>
+							<input type="date" name="event-date" class="event-date"/><i class="far fa-calendar-alt"></i>
+						</form>
+						<img src="images/events-2.jpg" alt="event image" title="event image"/>
+						<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum <a href="#">Read more</a></p>
+					</li>
+						<li class="sub-event"><p><strong>Event Title</strong></p>
+						<form>
+							<input type="date" name="event-date" class="event-date"/><i class="far fa-calendar-alt"></i>
+						</form>
+						<img src="images/events-3.jpg" alt="event image" title="event image"/>
+						<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum <a href="#">Read more</a></p>
+					</li>
+				</ul>
+				
 			</div>
 		</div>
 
 		<div class="right-pane">
 			
 			<div class="content">
+				
+				<p>
+				<div class="main-img">
+				<img src="images/main-event.jpg" alt="main image" title="main image"/>
+				</div>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>
 			
 			<div id="sub-gallery">
+			<div class="link-section">
+				<a href="" id="tab1">tab1 </a>
+				<a href="" id="tab2">tab2 </a>
+				<a href="" id="tab3">tab3 </a>
+			</div>
+			<div class="gallery-content">
+				<div class="gallery-image">
+				<img src="images/events.jpg" alt="event image" title="event image"/>				
+				</div>
+				<div class="gallery-image">
+				<img src="images/events-1.jpg" alt="event image" title="event image"/>				
+				</div>
+				<div class="gallery-image">
+				<img src="images/event-2.jpg" alt="event image" title="event image"/>				
+				</div>
+				<div class="gallery-image">
+				<img src="images/events.jpg" alt="event image" title="event image"/>				
+				</div>
+				<div class="gallery-image">
+				<img src="images/events-1.jpg" alt="event image" title="event image"/>				
+				</div>
+				<div class="gallery-image">
+				<img src="images/events-2.jpg" alt="event image" title="event image"/>				
+				</div>
+				<div class="gallery-image">
+				<img src="images/events.jpg" alt="event image" title="event image"/>				
+				</div>
+				
+			</div>
 			<p>gallery</p>
 			</div>
 			
@@ -54,20 +144,44 @@
 			
 				<div class="feedback">
 					<h3>FeedBack</h3>
+					<form>
+						<input type="radio" name="feed_back" id="op1" checked><label for="op1">Option1</label><br/>
+						<input type="radio" name="feed_back" id="op2" ><label for="op2">Option2</label><br/>
+						<input type="radio" name="feed_back" id="op3" ><label for="op3">Option3</label><br/>
+						<input type="radio" name="feed_back" id="op4" disabled ><label for="op4" disabled>Option4</label><br/>
+						<input type="radio" name="feed_back" id="op5" checked disabled><label for="op5" disabled>Option5</label><br/>
+						<input type="radio" name="feed_back" id="op6" disabled ><label for="op6" disabled>Option6</label><br/>
+						<p>A raw without a radio button</p>
+						<input type="submit" name="submit" value="Submit"/>
+						<input type="reset" name="reset" value="Clear"/>
+					</form>
 				</div>
 			
 				<div class="intake">
-					<h3>Intake</h3>
+					<h3>Mid Year Intake</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, </p>
+					<div class="intake-calender">
+					</div>
+					<form>
+						<input type="text" name="mid-email" value="Email Address here"/>
+						<input type="submit" name="apply" value="apply"/>
+					</form>
 				</div>
 			
 				<div class="location">
-					<p>Location</p>
+					<img src="images/map.jpg" alt="map" title="map"/>
+					<p>	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 	<footer>
-		<p>Copyright&copy; 2017</p>
+		<div class="container">
+		<p>Copyright&copy; 2017 <a href="http://www.paceinstitute.lk/" target="_blank">PACE Institute</a>. All Rights Reserved Website Design, Development & Hosted by <a href="http://www.ebeyonds.com/" target="_blank">eBEYONDS</a> </p>
+		</div>
 	</footer>
+
+
+
 </body>
 </html>

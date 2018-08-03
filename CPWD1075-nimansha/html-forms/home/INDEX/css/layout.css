@@ -1,0 +1,54 @@
+body{background-color: gold;}
+header{
+	background-color:dackblue;
+}
+
+.container{
+	width: 1240px;
+	margin left: auto;
+	margin right: auto;
+	padding: 20px;
+
+}
+
+/*main manu*
+h1 and h2 Title */
+.header hgroup{
+	display: inline-block;
+}
+/*main manu*/
+.main-avigation-map{
+	padding left: 0px;
+}
+.main-avigation-map li{
+	display: inline-block;
+}
+footer {
+	background-color:blue;
+
+}
+/* content wrapper */
+.content-area > div{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.left-pane{
+	width: 30%;
+	background: pink;
+
+}
+.right-pane{
+	width: 68%;
+	background: blue;
+}
+.feature-box{
+	text-align:center;
+}
+
+.feature-box > div{ 
+	display: inline-block;
+	width: 33%;
+	background-color: orange; 
+
+}

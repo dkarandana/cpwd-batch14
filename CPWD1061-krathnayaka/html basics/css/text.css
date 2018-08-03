@@ -1,0 +1,29 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  color: #000000; 
+  }
+
+a{
+	color:#4C4A4B;
+}
+a.hover{
+	color:#4596FF;
+}
+
+
+	.header{
+color:#046380;}
+
+h1,h2,h3{
+	font-style: bold;
+	color:#4C4A4B; 
+	font-family: 'Crete Round', serif;
+}
+
+p{
+	 color:#000000;
+}
+
+footer{
+color:#ffffff;
+}

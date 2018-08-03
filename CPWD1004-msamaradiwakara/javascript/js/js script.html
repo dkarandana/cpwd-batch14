@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Scripting Language</title>
+		<script src="script.js"></script>
+	</head>
+	<body>
+	
+		<script>
+		
+			var cpwd = true;
+			var name = "Malka";
+			var grade = 9;
+			var pref ; 
+			var email = null;
+			
+			/*console.log (email, typeof email);
+			var pref;
+			console.log (pref, typeof pref);*/
+			
+			var osPreferences = ["unix", "OSX","Windows"];
+			//var osPreferences = new Array ["unix", "OSX","Windows"];
+			osPreferences = [
+			["Linux",
+			"Ubuntu",
+			"CntOS",
+			],
+			"OSX",
+			"windows"];
+			
+			console.log (osPreferences, typeof osPreferences);//null object
+			console.log (osPreferences [0][2]);
+			
+			//objects define with {}
+			
+			/*var os = {
+			type  the book note and compair*/
+			
+			var os = {
+			aws:"Beanstalk",
+			unix: ["linux", "Ubuntu", "Centos", "RHEL"],
+			mac:"OSX",
+			windows: ["xp", "Me", "win7"]};
+			
+			console.log(os ["unix"]);
+			console.log (os ["mac"]);
+			console.log (os ["windows"][2]);
+			console.log (os ["aws"]);
+			
+			/*console.log (cpwd);
+			cpwd = true;
+			console.log(cpwd);
+			cpwd = "web";
+			console.log (cpwd);
+		
+			console.log ("Scripts goes here...");
+			console.log ( true, typeof true );
+			console.log ( false, typeof false);
+			console.log ( 12, typeof 12 )
+			console.log ( "Malka", typeof "Malka" )*/
+			
+			
+		
+		</script>
+		<h1>Javascript</h1>
+	</body>
+	
+</html>
