@@ -1,0 +1,47 @@
+body{
+	
+	background-color: skyblue;
+}
+.container{
+	width:940px;
+	background:white;
+	margin:0 auto;
+
+}
+header{
+	
+	background:#E6F0E9;
+	border-bottom:#3B3D3B;
+	margin:0 auto;
+	outline:6px;
+}
+
+
+footer{
+	
+	background:#737875;
+}
+.content-area{
+	
+}
+.left-pane{
+	width:30%;
+	background:white;
+	display:inline-block;
+	vertical-align:top;
+	
+}
+.right-pane{
+	width:69%;
+	background:white;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.feature-boxes{
+	text-align:center;
+}
+
+.feature-boxes>div{
+	display:inline-block;	
+}

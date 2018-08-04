@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+
+</head>
+<body>
+    <form method="POST" action="">
+
+        <fieldset>
+            <legend>Personal Data</legend>
+
+            <label for="first-name">First Name :</label>
+            <input id="first-name" type="text" name="fName">
+
+            <label>Last Name:</label><input type="text" name="lName">
+
+
+            Email : <input type="text" name="email">
+            Password : <input type="password" name="passwd">
+        </fieldset>
+
+        
+
+        <button name="vote">VOTE</button>
+
+        <select name="batchNumber">
+            <option value="batch10">Batch 10</option>
+            <option value="batch11">Batch 11</option>
+            <option value="batch12">Batch 12</option>
+            <option value="batch13">Batch 13</option>
+            <option value="batch14">Batch 14</option>
+        </select>
+        
+            Language Preferences :
+            
+            HTML <input name="lang_pref[]" value="html" type="checkbox">
+            JS <input name="lang_pref[]" value="js" type="checkbox">
+            JSX <input name="lang_pref[]" value="jsx" type="checkbox">
+            CSS <input name="lang_pref[]" value="css" type="checkbox">
+            TS <input name="lang_pref[]" value="ts" type="checkbox">
+      
+
+        <input type="button" value="like">
+        <input type="file">
+
+        <input type="image" height="30" width="30" src="../../../Shared/images/logo.png">
+       
+        Gender : 
+        male: <input type="radio" value="male">
+        female: <input type="radio" value="female">
+
+        <fieldset>
+            <legend>OS Preference</legend>
+            <select name="osPreference">
+                <optgroup label="UNIX Distributions">
+                    <option value="centos">Centos</option>
+                    <option>RHEL</option>
+                    <option>Kubuntu</option>
+                    <option>Ubuntu</option>
+                </optgroup>
+                <optgroup label="Windows">
+                    <option>Win 7</option>
+                    <option>Win 10</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <textarea name="comment" cols="60" rows="15"></textarea>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+</body>
+</html>

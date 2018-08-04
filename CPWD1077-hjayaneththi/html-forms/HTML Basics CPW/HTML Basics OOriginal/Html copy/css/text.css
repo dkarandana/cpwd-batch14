@@ -1,0 +1,35 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color:#FF7666;
+	background-color: #ECE00B;
+
+
+
+}
+
+
+h1{	background:white;
+	font-family: 'Open Sans', sans-serif;
+	color:FF9B01;
+
+
+}
+
+h2
+{ background: blue;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+mis{
+	color: white;
+	font-style:italic;
+	font-size: 140%;
+	
+	}
+
+footer{
+
+	color:blue;
+
+	}

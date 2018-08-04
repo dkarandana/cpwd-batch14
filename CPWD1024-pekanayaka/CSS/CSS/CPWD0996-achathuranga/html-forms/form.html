@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registatinon Form</title>
+</head>
+<body>
+	<form method="POST" action="">
+
+	<fieldset>
+		<legend>Personal Data</legend>
+
+
+		First name :<input type="text" name="fname">
+		Last name :<input type="text"name="lname">
+		Email :<input type="text" name="ename">
+		password :<input type="password" name="password">
+		</fieldset>
+		
+		Batch:<fieldset>
+		<select name="batch number">
+			<option value="batch3">batch13</option>
+			<option value="batch4">batch14</option>
+			<option value="batch5">batch15</option>
+		</select>
+		</fieldset>
+		<hr>
+		<br>
+
+		<!-- Language Perfernces:
+		HTML<input type="checkbox" name="lang_html">	
+		CSS<input type="checkbox" name="lang_css">
+		JAVA<input type="checkbox" name="lang_java">
+		PHP<input type="checkbox" name="lang_php">
+ -->	skills:<fieldset>
+ 		Language Perfernces:
+		HTML<input name="lang_pref[]" value="html" type="checkbox">	
+		CSS<input name="lang_pref[]" value="css" type="checkbox">
+		JAVA<input name="lang_pref[]"value="java" type="checkbox">
+		PHP<input name="lang_pref[]" value="php" type="checkbox">
+		</fieldset>
+		<hr>
+		<br>
+		Gender:<fieldset>
+		Male: <input type="radio" value="male" name="gender">
+		Female: <input type="radio" value="female" name="gender">
+		</fieldset>
+		<fieldset>
+			<legend>Os Preference</legend>
+			<select name="os preference">
+				<optgroup labale="linux">
+					<option>red hat</option>
+
+
+				</optgroup>	
+					<optgroup labale="windows">
+						<option>win7</option>
+						<option>win10</option>
+					</optgroup>
+		</fieldset>
+		
+		<hr>
+		<br>
+		<input type="file">
+		<hr>
+		<br>
+		<input type="hidden" name="registation Id" value="009">
+		<input type="image"src="../../../Shred/images/logo.png">
+		<button name="vote">Vote</button>
+
+		<input type="submit">
+		<input type="reset">
+	</form>
+</body>
+</html>
