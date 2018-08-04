@@ -1,0 +1,319 @@
+/*
+Primary Colour				152, 175, 191	#98afbf
+Secondary Colour			0, 159, 227		#009fe3
+
+Menu background Colour		0, 159, 227		#009fe3
+Menu link general Colour	25, 30, 30		#191e1e
+Menu link hover Colour		152, 175, 191	#98afbf
+
+Header background colour	152, 175, 191	#98afbf
+Header Text					25, 30, 30		#191e1e
+Icons						0, 159, 227		#009fe3
+
+Seo h1						25, 30, 30		#191e1e
+Text						25, 30, 30 		#191e1e
+
+link general				0, 159, 227		#009fe3 
+link hover					25, 30, 30		#191e1e
+link  after					152, 175, 191	#98afbf
+*/
+.wrapper{
+	width:800px;
+	position: relative;
+	padding: 0px;
+	margin: 0 auto;
+
+}
+
+header{
+	background-color: #98afbf;
+
+}
+
+body{
+	margin: 0px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.div1class1 {
+  position: relative;
+  background: gold;
+  border: 1px solid blue;
+
+}
+
+.headclass1{
+	position: relative;
+	display: inline-block;
+	/*background-color: red;*/
+	height: 100px;
+	width: 33%;
+	clear: left;
+
+}
+
+.headclass2{
+	position: relative;
+	display: inline-block;
+	/*background-color: yellow;*/
+	height: 100px;
+	width: 33%;
+
+}
+
+.headclass3{
+	position: relative;
+	display: inline-block;
+	/*background-color: lightblue;*/
+	height: 100px;
+	width: 33%;
+
+}
+
+ul.social-media{
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	font-size: 3em; /*em is a reletive mesurement*/
+}
+	ul.social-media li{
+		display: inline-block;
+	}
+
+.div1class2{
+  position: relative;
+  background: silver;
+  border: 1px solid blue;
+
+}
+
+.main-menu{
+	/*float: left;*/
+   	padding: 0px;
+   	background-color: #009fe3;
+	border: 1px solid blue;
+
+}
+
+.main-menu ul{
+	list-style: none;
+	padding: 0px;
+
+}
+
+.main-menu ul li{
+	display: inline-block;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: yellow;
+	border: 1px solid blue;
+
+}
+
+#div3{
+	display: inline-block;
+}
+
+.panes{
+	display: block;
+	float: 	left;	
+
+}
+
+.leftpane{
+	position: relative;
+    display: block;
+    background: gold;
+	width: 30%;
+}
+
+.news-feed{
+	list-style: none;
+	padding: 4PX;
+	position: relative;
+	display: inline-block;
+	background-color: #909090;
+	border: 1px solid purple;
+	margin: 4px;
+	/*TO ADD Scroller*/
+	max-height: 400px;
+	overflow: auto;
+			
+}
+
+	.news-feed .thumbnail{
+		height: 80px;
+		float: left;
+		margin-right: 10px;
+		border: 1px solid #ddd;
+    	border-radius: 2px;
+	}
+
+	.news-feed li:nth-child(even) .thumbnail{
+		float: right;
+		margin-right: 4px;
+		margin-left: 4px;
+	}
+
+.upcoming-news-feed{
+	list-style: none;
+	padding: 4px;
+	margin: 4px;
+	background-color: red;
+
+}
+
+.upcoming-news-feed .news-image{
+	width: 	210px;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    
+}
+
+
+.rightpane{
+	position: relative;
+    display: inline-block;
+    width: 69%;
+    background-color: #123231;
+    border: 1px solid blue;
+
+}
+
+.main-news-image{
+	display: block;
+    float: left;
+    padding: 0px 5px;
+}
+
+.mainevent{
+	position: relative;
+	background-color: silver;
+	height: 250px;
+	border: 1px solid blue;
+	margin: 4px;
+
+}
+
+.sub-gallery{
+	position: relative;
+	background-color: #696969;
+	border: 1px solid blue;
+	margin: 4px;
+
+}
+
+.sub-gallery-list{
+	list-style: none;
+	padding: 0px;
+}
+
+.feature-boxes{
+	position: relative;
+	background-color: #515151;
+	border: 1px solid blue;
+	margin: 4px;
+	display: inline-block;
+	float: left;
+	/*	display: flex;*/
+	
+
+}
+
+.feedback-block{
+	
+	width: 	32%;
+	border: 1px solid blue;
+	margin: 4px;
+	background-color: #222333;
+	display: inline-block;
+	margin-left: 0px;
+    float: left;
+
+}
+
+
+.mid-year-intake{
+	
+	width: 	32%;
+	border: 1px solid blue;
+	margin: 4px;
+	background-color: #222333;
+	position: relative;
+	display: inline-block;
+	margin-left: 0px;
+    margin-right: 0px;	
+    float: left;
+
+}
+
+#calander{
+	width: 170px;
+
+}
+
+.navigation-block{
+	
+	width: 	32%;
+	border: 1px solid blue;
+	margin: 4px;
+	background-color: #222333;
+	position: relative;
+	display: inline-block;
+	margin-right: 0px;	
+	display: inline-block;
+    float: left;
+    margin: 4px;
+}
+
+
+
+
+.div4class4{
+  	background: gold;
+  	border: 1px solid blue;
+  	display: inline;
+}
+
+
+.footclass1{
+	position: relative;
+	display: inline-block;
+	background-color: red;
+	height: 100px;
+	width: 33%;
+	clear: left;
+
+}
+
+.footclass2{
+	position: relative;
+	display: inline-block;
+	background-color: yellow;
+	height: 100px;
+	width: 33%;
+
+}
+
+.footclass3{
+	position: relative;
+	display: inline-block;
+	background-color: lightblue;
+	height: 100px;
+	width: 33%;
+	margin-right: 0px;
+
+}
+
+
+
+
+
+div p, #id:first-line{
+	
+}
+

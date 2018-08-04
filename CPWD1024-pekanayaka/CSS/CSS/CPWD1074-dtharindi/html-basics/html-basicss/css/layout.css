@@ -1,0 +1,55 @@
+body{
+	background-color:white;
+}
+header{
+	background-color:purple;
+	border-bottom:2px solid black; 
+}
+.container{
+	width:1240px;
+	padding:0 auto;  
+	margin:0 auto;
+
+}
+
+/* H1 and H2 title */
+.header hgroup{
+	display:inline-block;
+}
+
+/* Main menu*/
+.main-navigation-map li{
+	padding-left:0px; 
+}
+	.main-navigation-map li{
+		display:inline-block;
+	}
+	footer{
+		background-color:gold; 
+	}
+
+	/*  Content Wrapper  */
+
+	.content-area > div{
+		display:inline-block;
+		vertical-align:top; 
+	}
+	.left-pane{
+		width:30px;
+		background-color:orange; 
+		
+	}
+	.right-pane{
+		width:68px;
+		background-color:green; 
+	}
+	.feature-boxes{
+		text-align:center; 
+	}
+	.feature-boxes > div {
+		background-color:skyblue;
+		display: inline-block;
+		width:20%; 
+		min-height:300px; 
+
+	}

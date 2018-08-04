@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Registration Forms</title>
+	</head>
+	<body>
+		<form>
+			First name : <input type="text" name="fName"/>
+			Last name : <input type="text" name="lName"/>
+			Email : <input type="text" name="email"/>
+			Password : <input type="password" name="password"/>
+			<select name="batchNo">
+				<option value="batch12">Batch 12</option>
+				<option value="batch13">Batch 13</option>
+				<option value="batch14">Batch 14</option>
+			</select>
+			<!-- html 
+				Language Preferences
+				HTML<input type="checkbox" name="lang_html">
+				CSS<input type="checkbox" name="lang_css">
+				JS<input type="checkbox" name="lang_js">
+				TS<input type="checkbox" name="lang_ts">
+			-->
+				Language Preferences
+				HTML<input name="lang_pref[]" value="html" type="checkbox">
+				CSS<input name="lang_pref[]" value="css" type="checkbox">
+				JS<input name="lang_pref[]" value="js" type="checkbox">
+				TS<input name="lang_pref[]" value="ts" type="checkbox">
+				Gender:
+				<input type="radio" value="male" name="gender">
+				<input type="radio" value="femail" name="gender">
+				Upload your image
+				<input type="file">
+			<input type="submit"/>
+			<input type="reset"/>
+			
+		</form>
+
+	</body>
+</html>

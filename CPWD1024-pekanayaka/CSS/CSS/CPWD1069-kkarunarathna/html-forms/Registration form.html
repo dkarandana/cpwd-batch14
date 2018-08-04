@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Registration Form</title>
+	</head>
+	<body>
+		<form method="GET" >
+		<fieldset>
+			<legend>Persanal Data</legend>
+			<label for="first-name">
+			First Name:<input id="first-name" type="text" name="fName">
+			Last Name:<input type="text" name="lName">
+			Email:<input type="text" name="email">
+			Password:<input type="password" name="password">
+		</fieldset>
+		<fieldset>
+			<legend>Others</legend>
+			<select name="batch_no">
+				<option value="batch 1">batch 1</option>
+				<option  value="batch 2">batch 2</option>
+				<option  value="batch 3">batch 3</option>
+			</select>
+		</fieldset>
+        <fieldset>
+			<optgroup>Os</optgroup>
+				<select name="osPreference">
+				<option value="batch 1">Centos</option>
+				<option  value="batch 2">Kubuntu</option>
+				<option  value="batch 3">Ubuntu</option>
+			</select>
+		</fieldset>
+			<!-- html
+			Language preferances:
+			HTML<input type="checkbox" name="lag_html">
+			JS<input type="checkbox" name="lag_js">
+			CSS<input type="checkbox" name="lag_css">
+			-->
+			<input name="reg_id" type="hidden" value="001">
+			Language preferances:
+			HTML<input name="lag_pref[]" value="html" type="checkbox">
+			JS<input name="lag_pref[]" value="js" type="checkbox">
+			CSS<input name="lag_pref[]" value="css" type="checkbox">
+			TS<input name="lag_pref[]" value="ts" type="checkbox">
+			<hr>
+			Gender:
+			male:<input type="radio" name="gender" value="male" >
+			female:<input type="radio" name="gender" value="female">
+			upload image:<input type="file" >
+		    <input type="image" src="../w3c.png">
+			<input type="textarea" value="">
+			<input type="submit" value="Submit Query">
+			<input type="button" value="like">
+			<input type="Reset">
+		</form>
+	</body>
+</html>

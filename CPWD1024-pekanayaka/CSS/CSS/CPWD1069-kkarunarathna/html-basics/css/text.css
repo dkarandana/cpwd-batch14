@@ -1,0 +1,54 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+
+black:000000;
+offwhite:FDEDE9;
+brown:853100;
+orange:C46804;
+yellow:E5BC2C;
+*/
+
+body{
+	font-family:'Lato',sans-serif;
+		
+	
+}
+footer{
+	background-color:#E5BC2C;
+	
+}
+#header{
+	background-color:#FDEDE9;
+	border-bottom:1px solid blue;
+}
+h1,h3{
+	color:#000000;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width:1240px;
+	margin-left:20px;
+	margin-right:20px;
+	border-bottom:1px solid blue;
+}
+
+#main-menu{
+	padding:0;
+}
+#main-menu li{
+	display:inline-block;
+}
+#sub-menu{
+	padding:0;
+}
+#sub-menu li{
+	display:inline-block;
+}
+hgroup{
+	padding:0;
+}
+ hgroup h1,h2{
+	 display:inline-block;
+ }
+ 

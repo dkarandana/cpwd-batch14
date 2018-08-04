@@ -1,0 +1,58 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color:#FF7666;
+}
+
+
+footer{
+
+	background-color: #ECE00B;
+}
+
+#header{
+	background-color:#FDEDE9;
+	border-bottom:1px solid blue;
+}
+
+
+h1,h2 {	
+	color:#000000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+container{
+	width:1240px;
+	margin-left:20px;
+	margin-right:20px;
+	border-bottom:1px solid blue; 
+}
+
+#main-menu
+{
+	padding:0;
+}
+
+#main-menu li{
+	display:inline-block;
+}
+#sub-menu{
+	padding:0;
+}
+#sub-menu li{
+	display:inline-block;
+}
+
+hgroup{
+	padding:0;
+}
+
+ hgroup h1,h2{
+	 display:inline-block;
+ }
+
+
+footer{
+
+	color:blue;
+
+	}

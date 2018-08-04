@@ -1,0 +1,121 @@
+<!DOCTYPE html> <!--doc type declaration-->
+
+<html> <!--wrappper-root element-->
+
+	<head> <!--define common data-to put something globally-->
+		<title>Registration form</title>
+	</head>
+
+
+	<body>
+		<form method="GET" action=""> <!--use GET for testing purposes-->
+
+			<fieldset> <!--Create blocks and group the data in front end-->
+				<legend>Personal Data</legend>
+					<!--Fieldset with in a fieldset is allowed-->
+
+					<label for="firstName"></label>First Name : <input type="text" id="firstName" name="fName"/> <!--label for="id needs to be given to the controller"-->	
+
+					Email : <input type="text" name="email"/>
+					Password : <input type="password" name="pwd"/>
+
+			</fieldset>
+
+
+			
+			<fieldset>
+				<legend>Batch details</legend>
+			
+				<select name="batchNo">  <!--select a single value from a drop down-->
+					<option value="batch10">Batch 10</option>
+					<option value="batch11">Batch 11</option>
+					<option value="batch12">Batch 12</option>
+					<option value="batch13">Batch 13</option>
+					<option value="batch14">Batch 14</option>
+				</select>
+			</fieldset>
+
+
+			<fieldset>
+					<legend>Language preferences</legend>
+
+						Language Preferences : <!--multiple selections : check boxes-->
+
+				<!-- OPTION 01-->
+					<!-- 
+						HTML<input type="checkbox" name="lang_html"/>
+						<!--taken as 3 separate fields by its name : URL:: "lang_html:on","lang_js:on" for selected values-->
+						<!--
+						JS<input type="checkbox" name="lang_js"/>
+						JSX<input type="checkbox" name="lang_jsx"/>
+						CSS<input type="checkbox" name="lang_css"/>
+						TS<input type="checkbox" name="lang_ts"/>
+						-->
+
+				<!--OPTION 02 Convenient way-->
+							HTML<input type="checkbox" name="lang_pref[]" value="html"/> <!--taken as one field in the array name:lang_pref : URL:: "lang_html[]:0:on","1:on" for selected values-->
+							JS<input type="checkbox" name="lang_pref[]" value="js"/> <!--self closing-->
+							JSX<input type="checkbox" name="lang_pref[]" value="jsx"/>
+							CSS<input type="checkbox" name="lang_pref[]" value="css"/>
+							TS<input type="checkbox" name="lang_pref[]" value="ts"/>
+	
+			</fieldset>
+
+
+
+			<fieldset>
+				<legend>OS preference</legend>
+					<select name="osPreference">
+						<optgroup label="UNIX Distributions"> <!--option group : use appropriate controllers to benefit with the features rendered by the respective OSs-->
+							<option value="centos">Centos</option>
+							<option value="rhel">RHEL</option>
+							<option value="kubuntu">Kubuntu</option>
+							<option value="ubuntu">Ubuntu</option>
+						</optgroup>
+
+				
+						<optgroup label="Windows">
+							<option value="win7">Win 7</option>
+							<option value="win10">Win 10</option>		
+						</optgroup>
+					</select>
+			</fieldset>
+
+
+
+			<fieldset>
+				<legend>Other details</legend>
+			Gender : 
+				Male<input type="radio" name="gender" value="male" /> <!--name : to take both to the same field-->
+				Female<input type="radio" name="gender" value="female" />
+
+			Upload profile picture :
+				<input type="file" name="proPic"/> <!--file IP-->
+
+				Registration ID<input type="hidden" name="regID" value="001"/> <!--doesnot show to the user-to pass hidden values usually put at the top of the form : Requires "name" to pass values : URL ::regID=001-->
+
+				<!--input type="image" height="30" width="30" scr="../../../path-needs to be esssentially given:size comes in pixels"-->
+			</fieldset>
+
+
+
+			<fieldset>
+				<legend>Submissions</legend>
+					<input type="submit">
+					<input type="reset">
+			</fieldset>
+
+
+
+			<textarea name="comment" cols="30" rows="5"></textarea>
+
+
+			<!--Button element-->
+				<button name="vote">VOTE</button>
+
+		</form>
+
+	</body>
+
+
+</html>

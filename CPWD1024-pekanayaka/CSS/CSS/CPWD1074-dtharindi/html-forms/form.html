@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lag="en">
+   <head>
+   
+   <title>Registration Form</title>
+    
+   </head>
+   <body>
+  
+     <input name="regid"type="hidden" value="0">
+     
+     
+        <form method="POST" action="">  
+            
+            <fieldset>
+                <legend>Personal Data</legend>
+        
+            First Name : <input type="text" name="fname">
+            Last Name : <input type="text" name="lname">
+            Email : <input type="text" name="email">
+            Password : <input type="password" name="password">
+            </fieldset>
+            <br>
+            <select name="Batch number">
+               <option>Batch 10</option>
+               <option>Batch 11</option>
+               <option>Batch 12</option>
+               <option>Batch 13</option>
+               <option>Batch 14</option>
+            </select>
+              <br>
+              
+              <fieldset>
+                <legend>Language Skills</legend>
+             <hr>
+            <!-- html
+                    miltiline comment
+             -->       
+                Language Preferences :
+                
+                HTML<input name="lan_pref[]" value="html" type="checkbox">
+                JS<input name="lan_pref[]" value="js" type="checkbox">
+                JSX<input name="lan_pref[]" value="jsx" type="checkbox">
+                CSS<input name="lan_pref[]" value="css" type="checkbox">
+                TS<input name="lan_pref[]" value="ts" type="checkbox">
+             <hr>
+              </fieldset>
+           
+               <br>
+             Gender :
+             male<input name="gender" type="radio" value="male">
+             female<input name="gender" type="radio" value="female">
+              
+              <fieldset>
+                <legend>OS Preferences</legend> 
+                <select name="ospreferences">
+                <optgroup label="UNIX distributions">
+                    <option value ="centos">Centos</option>
+                    <option>RHEL</option>    
+                    <option>Kubuntu</option> 
+                    <option>Ubuntu</option> 
+                 </optgroup>
+                 </select>
+               </fieldset>
+                 
+               <br>
+             Upload Image :
+             <input type="file">
+             
+             <fieldset>
+              
+             </fieldset>
+            
+                
+             <input type="button" value="Vote">
+             <input type = "submit">
+            <input type= "Reset">
+            </fieldset>
+              
+        </form>
+   
+   </body>
+</html>
+
+
+
+
+
+

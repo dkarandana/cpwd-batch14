@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Form</title>
+	</head>
+	<body>
+		<form method="GET" action="">
+			First Name:<input type="text" name="fname">
+			Last Name:<input type="text" name="lname">
+			Email:<input type="text" name="email">
+			Password:<input type="password" name="password">
+			<hr>
+			<select name="batch_no">
+				<option value="batch 1">batch 1</option>
+				<option  value="batch 2">batch 2</option>
+				<option  value="batch 3">batch 3</option>
+			</select>
+			<hr>
+			<!-- html
+			Language preferances:
+			HTML<input type="checkbox" name="lag_html">
+			JS<input type="checkbox" name="lag_js">
+			CSS<input type="checkbox" name="lag_css">
+			-->
+			Language preferances:
+			HTML<input name="lag_pref[]" value="html" type="checkbox">
+			JS<input name="lag_pref[]" value="js" type="checkbox">
+			CSS<input name="lag_pref[]" value="css" type="checkbox">
+			TS<input name="lag_pref[]" value="ts" type="checkbox">
+			<hr>
+			Gender:
+			male<input type="radio" name="gender" value="male" >
+			female<input type="radio" name="gender" value="female">
+			<input type="submit" value="Submit Query">
+			<input type="Reset">
+		</form>
+	</body>
+</html>
