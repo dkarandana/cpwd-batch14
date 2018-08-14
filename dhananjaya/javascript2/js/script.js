@@ -1,33 +1,60 @@
-var studentData = ["Channa","Jagath","Kumara", "Charith" ,"Madu"];
+var studentRecords = function(){
 
-/* DOM Script */
+    var studentData = [{
+        id:'CPWD0001',
+        name:"Dhananjaya",
+        email:"dhananjaya.karandana@pace.lk"
+    },{
+        id:'CPWD0002',
+        name:"Channa",
+        email:"chkumara@pace.lk"
+    },{
+        id:'CPWD0003',
+        name:"Chathura",
+        email:"chathura@pace.lk"
+    }];
 
 
-document.addEventListener('DOMContentLoaded', function(){
-    var studentList = document.getElementById('student-list');
+    /* Find index */
 
-    if( studentList && studentData ){
 
-        studentData.forEach(function( name, i ){
-            var studentEle = document.createElement('li');
-            var morebtn = document.createElement('button');
-            var studentTextNode = document.createTextNode( ++i + ' ) ' + name );
+    var DOMReady = function(){
+        var appRoot = document.getElementById('app');
 
-            morebtn.innerHTML = "view";
-            morebtn.setAttribute('class','primary-btn');
-            morebtn.setAttribute('data-name', name );
+        studentData.forEach(function( record , index ){
+            var tNode = document.createTextNode( record.name );
+            var p = document.createElement('p');
+            var btn = document.createElement('button');
 
-            morebtn.addEventListener('click',function( ){
-                var student = this.getAttribute('data-name');
-                alert("More about " + student );
-            });
+            btn.innerHTML = record.id;
+            btn.setAttribute('data-id',record.id);
+
+            p.appendChild( tNode );
+            p.appendChild( btn );
+
+            btn.addEventListener('click',function(){
+                var id = this.getAttribute('data-id');
+                var index = studentData.map(function( record ){
+                    return record.id;
+                }).indexOf( id );
+
+                var student = studentData[index]
             
-            studentEle.appendChild( studentTextNode );
-            studentEle.appendChild( morebtn );
+                alert(`
+                    Reg Number ${student.id}
+                    Name ${student.name}
+                    Email ${student.email}
+                `);
 
-            studentList.appendChild( studentEle );
+                console.log( student );
+        
+            });
+
+            appRoot.appendChild( p );
+
         });
+    };
 
-    }
+    document.addEventListener('DOMContentLoaded',DOMReady);
+}();
 
-});
