@@ -1,5 +1,28 @@
 
-var studentData = ["rukshan", "lahiru", "sumedha", "charith", "nalin", "danidu"];
+var studentRecords = function(){
+	
+	var studentData = ["rukshan", "lahiru", "sumedha", "charith", "nalin", "danidu"];
+	
+	var DOMReady = function(){
+		var appRoot = document.getElementById('app');
+		
+		studentData.forEach(function( name , i ){
+			var tNode = document.createTextNode( name );
+			var p = document.createElement( 'p' );
+			
+			p.appendChild( tNode );
+			appRoot.appendChild ( p );
+			
+			
+		});
+		
+	};
+	Document.addEventListener('DOMContentLoaded' , DOMReady);
+	
+}();
+
+
+/*var studentData = ["rukshan", "lahiru", "sumedha", "charith", "nalin", "danidu"];
 console.log( studentData );
 
 var func1 = function( value, index ){

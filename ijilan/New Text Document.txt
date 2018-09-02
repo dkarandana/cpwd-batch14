@@ -1,0 +1,35 @@
+	/*var h3element =$('h3');
+
+		
+		h3element.css('fontSize','2em');
+		h3element.css('color','blue');
+		h3element.css('border','2px solid black');
+		
+
+		
+		$('h3').css('fontSize','2em');
+		$('h3').css('color','blue');
+		$('h3').css('border','2px solid black');
+
+		console.log('h3element');
+
+		var fun = {
+			marginLeft:400,
+			height:50,
+		};
+ 		
+		var go = function(){
+			alert('hi');
+		};
+
+		var changed = function(){
+
+			var $changed =$(this);
+
+			$changed.css('backgroudColor','red');
+
+			console.log('$changed');
+		};
+
+		$('h3').animate(fun,2000,changed);
+	*/

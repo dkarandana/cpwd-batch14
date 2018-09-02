@@ -1,33 +1,49 @@
-	var studentData = new Array("Samal","Supun","Sadun","Kasun","Amal");
-
-	var myFunc = function( name, index ){
-		console.log(name,index)
-	};
-		
-	studentData.forEach( myFunc );
-	document.addEventListener('DOMContentLoaded',function(){
-		console.log('DOM Loaded')
-	var studentList = document.getElementById("student-list");
 	
+	var studentrecord = function(){
+	var studentData = [{
+		name:"Samal"
+		Email:"samal@gmail.com"
+	},{
+		name:"Supun"
+		Email:"samal@gmail.com"
+	},{
+		name:"Sadun"
+		Email:"samal@gmail.com"
+	},{
+		name:"kasun"
+		Email:"samal@gmail.com"
+	}];	
 	
-	if(studentList && studentData ){
+	var DOMReady = function(){
+		var appRoot = document.getElementById('student-list');
 		
 		studentData.forEach(function(name,i){
-		var studentEle = document.createElement( 'li' );
-		var morebtn = document.createElement('button');
-		var studentTextNode = document.createTextNode(++i + ')'+ name );
-		
-		/*morebtn.innerHTML = "view";
-		morebtn.setAttribute('class','primary-btn');
-		morebtn.setAttribute('data-name','name');
-		alert("More about" + student);
-		});*/
-		
-
-		studentEle.appendChild( studentTextNode );
-		studentList.appendChild( studentEle );
+			var tNode = document.createTextNode( name );
+			var para = document.createElement('p');
+			var btn = document.createElement('button');
+			
+			btn.innerHTML = "view"
+			btn.setAttribute('data-id',record.id);
+			
+			para.appendChild( tNode );
+			appRoot.appendChild(btn);
+			
+			btn.addEventListener('click',function(){
+				var id = this.getAttribute('dats-id');
+				var index = studentData.map(function( record ){
+					return record.id;
+				}).indexOf( id );
+				
+				var student = studentData[index]
+				
+				alert(`
+					Reg Number ${student.id}
+					Name ${student.name}
+					Email${student.email}
+				`);
+				
 		});
-	}
-	});
-
-                     
+		
+	};
+	document.addEventListener('DOMContentLoaded',DOMReady());
+	}();

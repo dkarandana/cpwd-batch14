@@ -1,0 +1,51 @@
+/*
+H1 
+font-family: 'Chela One', cursive;
+
+Titles
+font-family: 'Lato', sans-serif;
+
+Content
+font-family: 'Open Sans', sans-serif;
+
+
+dark blue #1A1F2B
+blue #30395C;
+light blue #4A6491
+orange #FA683C
+off white #FAFAFA
+
+
+*/
+
+/*Global styles*/
+body{
+	font-family: 'Lato', sans-serif;
+	color:black;
+}
+
+
+a{
+	color: #000D82;
+	
+}
+
+a:hover{
+	color:  #FA683C;
+
+}
+
+h1{
+	/*font-family: 'Chela One', cursive;*/
+	font-family: 'Fjalla One', sans-serif;
+	color: #FA683C
+}
+
+h2{
+	color: #013001;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h3{
+	color: #30395C;
+}

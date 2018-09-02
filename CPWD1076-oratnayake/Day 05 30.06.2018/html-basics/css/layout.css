@@ -1,0 +1,215 @@
+	body{
+		background-color: #FCFFB9;
+	}
+	
+	.container{
+		margin:0 auto;
+		width: 1240px;
+		padding:0 20px;
+	}
+
+	.container li{
+		display: inline-block;
+	}
+
+	header{
+		background:#00959C;
+		top: 0;
+		left: 0;
+		position: fixed;
+		width: 100%;
+		border-bottom: solid #2980B9;
+		/*position: relative;*/
+	}
+
+
+	/*main menu*/
+	#main-menu{
+		margin: 0;
+	}
+
+	#main-menu li{
+		display: inline-block;
+		margin-right: 10px;
+		background-color: white;
+		padding: 5px;
+	
+	}
+
+	#main-menu a{
+			text-decoration: none;
+	}
+
+	/*heading group*/
+	#hg-group{
+		display: inline-block;
+		margin-left: 20px;
+
+	}
+
+
+ /*footer*/
+	footer{
+		/*background-color:#4A6491;*/
+		color: white;
+		background:#00959C;
+		/*width: 100%;*/
+	}
+
+	/*footer .container{
+		width: 100%;
+	}*/
+
+	footer a{
+		color: blue;
+	}
+
+.content-area{
+	margin-top: 232px;
+}
+
+.content-area >div{ /*first level children in the cintent-area div*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+.left-pane{
+	width: 30%;
+	padding: 2px;
+	/*background: pink;*/
+	
+}
+
+
+.right-pane{
+	width: 69%;
+	/*background: lightblue;*/
+}
+
+.feature-boxes{
+	text-align: center;
+	margin-top:30px; 
+
+}
+
+.feature-boxes>div{
+	/*background: yellow;*/
+	display: inline-block;
+	width:30%;
+	border: 1px solid;
+	min-height: 400px;
+	vertical-align: top;
+}
+
+
+
+#global-search{
+	display: inline-block;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+
+}
+
+
+.social-media{		
+	position:absolute; 
+	top: 80px;
+	right:100px;
+}
+
+.social-media li{ 
+	padding-right:10px;	
+	display: inline-block;
+
+}
+
+/*.social-media i{
+		height: 50px;
+	width: 50px;
+}*/
+
+
+/*
+.map{
+	width: 100px;
+}
+*/
+
+#search-box{
+	border-radius: 20px;
+}
+
+
+#latest-news{
+	padding: 3px;
+	border: solid 2px;
+}
+
+#latest-news i{
+	right:20px;
+	top:20px;
+}
+
+#latest-news-content{
+	max-height: 375px;
+	overflow: auto;
+}
+
+#events{
+	border: solid 2px;
+}
+
+#events i{
+	right:20px;
+	top:20px;
+}
+
+.events-content{
+	max-height: 360px;
+	overflow: auto;
+}
+
+
+#right-pane{
+	border: solid 2px;
+}
+
+#main-content{
+	padding-left: 10	px;
+}
+#main-content p img{
+		float: left;
+		margin-right: 5px;
+		margin-bottom: 5px;
+}
+
+
+#feedback form div{
+	display: block;
+}
+
+#gallery-tabs{
+	margin-top: 50px;
+}
+
+#gallery-tabs a{
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: blueviolet;
+}
+
+#gallery-imgs{
+	border: solid 2px;
+	margin: 3px;
+}
+
+
+/*ASK*/
+.radio-bttn input{
+	display: block;
+}
+

@@ -1,0 +1,23 @@
+https://codepen.io/dkarandana/pen/ZjLXmB
+
+<div class="container">
+  <div>C</div>
+  <div>P</div>
+  <div>W</div>
+  <div>D</div>
+</div>
+
+
+
+.container{
+  background:gold;
+  overflow:auto;
+}
+.container > div{
+  font-size:4em;
+  background:#c34;
+  color:#fff;
+  width:150px;
+  margin:2px;
+  float:left;
+}
