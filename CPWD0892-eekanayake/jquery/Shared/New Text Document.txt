@@ -1,0 +1,9 @@
+var DOMready = function(){
+	console.log('DOM is Ready!!');
+};
+
+jQuery( Document ).ready( DOMready );
+
+
+$(function(){
+)};

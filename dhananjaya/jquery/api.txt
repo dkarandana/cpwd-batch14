@@ -1,9 +1,0 @@
-jQuery
-$
-jQuery()
-.jquery
-.noConflict()
-.ready()
-.css()
-.height()
-.width()

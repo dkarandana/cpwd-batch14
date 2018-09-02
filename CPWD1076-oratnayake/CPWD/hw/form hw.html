@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html> <!--wrappper-root element-->
+
+	<head> 
+		<title>Registration form</title>
+	</head>
+
+
+	<body>
+		<h3>Registration form</h3>
+		<form method="GET" action=""> 
+
+			<fieldset>
+				<legend>Personal Data</legend>
+					<label for="firstName"></label>First Name : <input type="text" id="firstName" name="fName"/> <br/>
+					<label for="lastName"></label>Last Name : <input type="text" id="lastName" name="lName"/> <br/>
+
+					<label for="dob"></label>Date of birth :<input type="date" id="dob" name="dob"/> <br/>
+					<label for="gender"></label> <input type="radio" id="gender" name="gender" checked/>Male 
+												<input type="radio" id="gender" name="gender"/>Female <br/>
+
+				
+				<fieldset>
+					<legend>Contacts</legend>
+						Street line 1 <input type="text" name="address_line1"/><br/>
+						Street line 2 <input type="text" name="address_line2"/><br/>
+						City<input type="text" name="city"/><br/>
+						Postal code<input type="text" name="postal-code"/><br/>
+						
+						<select name="country">
+							<optgroup label="--Select country--">
+								<option value="sl">Sri Lanka</option>
+								<option value="in">India</option>
+								<option value="uk">United Kingdom</option>
+								<option value="usa">USA</option>
+								<option value="ger">Germany</option>
+							</optgroup><br/>
+						</select>
+						
+						Email address <input type="email" name="mail"/><br/>
+						Twitter <input type="text"/> <!--CHECK--><br/>
+						
+						<fieldset>
+							<legend>Contacts</legend>
+								Mobile :<input type="text" name="mobile"/><br/>
+								Fixed Line :<input type="text" name="phone"/><br/>
+								Fax :<input type="text" name="fax"/><br/>
+						</fieldset>
+						
+						Contact preferences :
+							<input type="checkbox" /> Mobile<br/>
+							<input type="checkbox"/> Fixed Line<br/>
+							<input type="checkbox"/> Email<br/>
+							<input type="checkbox"/> Twitter<br/>
+						
+					</fieldset>
+					
+					<fieldset>
+							<legend>CPWD Account</legend>
+								Student ID :<input type="text" name="mobile"/ value="CPWD"><br/>
+								<select name="batchNo">  <!--SELECT GROUP-->
+									<option value="batch10">Batch 10</option>
+									<option value="batch11">Batch 11</option>
+									<option value="batch12">Batch 12</option>
+									<option value="batch13">Batch 13</option>
+									<option value="batch14">Batch 14</option>
+								</select>
+								
+						<fieldset>
+							<legend>Wiki Account</legend>
+								User name:<input type="text" name="mobile"/><br/>
+								Password : <input type="password"/><br/>
+								Password-re type <input type="password"/><br/>
+								
+						</fieldset>
+						</fieldset>
+						
+						<input type="reset" value="CLEAR"/>
+						<input type="Submit" value="SUBMIT"/>						
+						
+		</form>
+
+	</body>
+
+
+</html>

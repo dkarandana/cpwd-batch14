@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		if(studentlist && studentdata){
 
 
-			studentdata.forEach(function ( name ){
+			studentdata.forEach(function ( name , index ){
 				var p1 = document.createElement('p');
 				var morebtn = document.createElement('button');
 				var paraText = document.createTextNode(name);

@@ -1,0 +1,131 @@
+
+/*
+console.log(jQuery); //correct linking
+console.log( $ ); //correct linking   // $ alias jQuery
+
+
+console.log("Version",jQuery().jquery); //version number
+console.log("Version",$().jquery); //version number
+
+
+var jQ = $.noConflict(); //unlink the alias
+console.log( $ , jQ); //$ is undefined now (O/P)
+
+*/
+
+
+
+var DOMReady =  function(){ //the function is created and assigned to a variable.
+    console.log( "DOM is ready" );
+};
+
+
+jQuery( document ).ready( DOMReady ); //.ready() gets fired as soon as the nodes are created :: needs to be used with a function essentially as per the API.
+
+
+//Short hand function for the above
+$(function() {
+    console.log(" DOM ready SHORT HAND");
+});
+
+/*
+* Replacement to the above
+*
+Query( document ).ready( function(){ 
+    console.log( "DOM is ready" );
+});
+
+*/
+
+
+
+
+/*
+jQuery( document ).ready( function(){ //jQuery can be replaced with $  
+    console.log('DOM is ready');
+
+    var $seoH1=jQuery ( 'h1' ); //$seoH1 :: $ isa used only as a reference to state it is a jQuery variable.
+    console.log($seoH1); 
+
+});
+
+*/
+
+
+
+/*
+*Changing the colour of the element using CSS
+
+jQuery( document ).ready( function() {  
+    console.log('DOM is ready');
+    var $seoH1=jQuery ( 'h1' ).css('color','red'); 
+
+
+    /*
+    var $seoH1=jQuery ( 'h1' );
+    $seoH1.css('color','red');
+     */
+
+    //console.log($seoH1); 
+
+});
+
+
+*/
+
+
+
+
+
+
+
+
+/* Changing the colour of a div with an id
+
+jQuery( document ).ready( function() {  
+    console.log('DOM is ready');
+
+    var $box = jQuery('#box'); //use the CSS selector
+    //console.log($box);
+
+
+    $box.height(200);
+    $box.width(200);
+    //$box.css('height',200);
+    //$box.css('width',200);
+    $box.css('backgroundColor','blue');
+
+
+    //or
+    //chaining 
+     $box
+        .height(200)
+        .width(200)
+        .css('backgroundColor','blue');
+
+
+       //or
+
+           var $box = jQuery('#box'); //use the CSS selector
+    		//console.log($box);
+
+    		$box.css({
+        	height:200,
+        	width:200,
+        	backgroundColor:'blue'
+});
+
+});
+
+*/
+
+
+
+/*
+var $seoH1=jQuery ( 'h1' );
+    $seoH1.css('color','red');
+
+
+    console.log( $seoH1.text("Updated text"));
+
+*/
